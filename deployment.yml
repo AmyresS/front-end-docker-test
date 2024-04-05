@@ -36,5 +36,6 @@ spec:
       protocol: TCP
       port: 8080
       targetPort: 80
+      nodePort: 35555
   type: NodePort
 # kubectl port-forward --address 0.0.0.0 service/frontend-service 8080
